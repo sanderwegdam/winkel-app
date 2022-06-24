@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 90%;
+  box-sizing: border-box;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+.btn-sm {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.button-primary {
+  background: #999 !important;
+  border: 1px solid black !important;
+  border-radius: 3px;
+  color: white !important;
+  font-size: 8px !important;
+  border-radius: 0px !important;
+}
+
+.button-secondary {
+  background: red !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  font-size: 10px !important;
+}
+
+.btn:hover {
+  border: 0.1rem #808080 solid;
+}
+
+.img-span{
+  transform: translate(-70px, 40px);
+  font-size: 10px;
+}
