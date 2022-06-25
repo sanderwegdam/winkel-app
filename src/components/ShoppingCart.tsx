@@ -9,20 +9,19 @@ type ShoppingCartProps = {
 }
 
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
-
   const { closeCart, cartItems } = useShoppingCart()
   return (
-    <Offcanvas show={isOpen} onHide={closeCart} placement="end">
+    <Offcanvas  style={{minWidth:"380px"}} show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Winkel</Offcanvas.Title>
+        <Offcanvas.Title>Winkel items</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
-        <Stack gap={3}>
+        <Stack gap={4}>
           {cartItems.map(item => (
             <CartItem key={item.id} {...item} />
           ))}
           <div className="ms-auto fw-bold fs-5">
-            Totaal {" "}
+           <span className="p-2"> Totaal: {" "} </span>
             {formatCurrency(
               cartItems.reduce((total, cartItem) => {
                 const item = storeItems.find(i => i.id === cartItem.id)

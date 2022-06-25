@@ -6,10 +6,8 @@ import { CgShoppingBag } from "react-icons/cg"
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
-
   return (
     <NavbarBs sticky="top" className="bg-light mb-3"> 
-
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/winkel" as={NavLink}>
@@ -19,10 +17,8 @@ export function Navbar() {
         {cartQuantity >= 0 && (
           <Button
             onClick={openCart}
-            style={{ width: "3rem", height: "3rem", position: "relative" }}          >
-
+            style={{ width: "3rem", height: "3rem", position: "relative" }} >
               <FaShoppingCart />
-
             <div
               className="rounded-circle bg-danger d-flex justify-content-center align-items-center"
               style={{

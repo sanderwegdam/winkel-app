@@ -23,17 +23,16 @@ textarea {
   cursor: pointer;
 }
 
-.button-primary {
-  background: #999 !important;
+.button-light {
+  background: #6c757d !important;
   border: 1px solid black !important;
-  border-radius: 3px;
+  border-radius: 5px !important;
   color: white !important;
-  font-size: 8px !important;
-  border-radius: 0px !important;
+  font-size: 12px !important;
 }
 
 .button-secondary {
-  background: red !important;
+  background: #6c757d !important;
   border: 1px solid black !important;
   border-radius: 5px !important;
   font-size: 10px !important;
@@ -46,4 +45,8 @@ textarea {
 .img-span{
   transform: translate(-70px, 40px);
   font-size: 10px;
+}
+
+.card{
+  border-radius: 10px !important;  
 }
