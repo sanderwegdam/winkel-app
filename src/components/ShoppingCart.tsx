@@ -11,7 +11,7 @@ type ShoppingCartProps = {
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   const { closeCart, cartItems } = useShoppingCart()
   return (
-    <Offcanvas  style={{minWidth:"380px"}} show={isOpen} onHide={closeCart} placement="end">
+    <Offcanvas  style={{minWidth:"375px"}} show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
         <Offcanvas.Title>Winkel items</Offcanvas.Title>
       </Offcanvas.Header>

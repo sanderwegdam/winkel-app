@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/winkel-app/static/css/main.b565df0c.css",
-    "main.js": "/winkel-app/static/js/main.8836a392.js",
+    "main.js": "/winkel-app/static/js/main.e54bccdb.js",
     "index.html": "/winkel-app/index.html",
     "main.b565df0c.css.map": "/winkel-app/static/css/main.b565df0c.css.map",
-    "main.8836a392.js.map": "/winkel-app/static/js/main.8836a392.js.map"
+    "main.e54bccdb.js.map": "/winkel-app/static/js/main.e54bccdb.js.map"
   },
   "entrypoints": [
     "static/css/main.b565df0c.css",
-    "static/js/main.8836a392.js"
+    "static/js/main.e54bccdb.js"
   ]
 }
