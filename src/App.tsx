@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Container className="mb-4">
         <Routes>   
-          <Route path="/winkel" element={<Winkel />} />
-          <Route path="/*" element={<Navigate to="/winkel" />}  />
+          <Route path="/winkel-app" element={<Winkel />} />
+          <Route path="/*" element={<Navigate to="/winkel-app" />}  />
         </Routes>
       </Container>
     </ShoppingCartProvider>
