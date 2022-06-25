@@ -52,7 +52,7 @@ export function CartItem({ id }: CartItemProps) {
               </div>      
             </div>
       </div>
-      <div className="py-3">  <span className="p-1" style={{fontSize:"10px"}}> </span> {formatCurrency(item.price * quantity)}</div>
+      <div className="px-3">  <span className="p-3">Prijs:</span><span className="p-1" style={{fontSize:"10px"}}> </span> {formatCurrency(item.price * quantity)}</div>
     </Stack>
   )
 }

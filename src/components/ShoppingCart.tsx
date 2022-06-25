@@ -20,7 +20,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           {cartItems.map(item => (
             <CartItem key={item.id} {...item} />
           ))}
-          <div className="ms-auto fw-bold fs-5">
+          <div className="ms-auto mx-5 fw-bold fs-5">
            <span className="p-2"> Totaal: {" "} </span>
             {formatCurrency(
               cartItems.reduce((total, cartItem) => {
