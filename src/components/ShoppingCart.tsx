@@ -13,7 +13,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   return (
     <Offcanvas  style={{minWidth:"375px"}} show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Winkel items</Offcanvas.Title>
+        <Offcanvas.Title><span className="p-3">Winkel items</span></Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Stack gap={4}>
