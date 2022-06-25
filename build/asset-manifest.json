@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/winkel-app/static/css/main.b565df0c.css",
+    "main.js": "/winkel-app/static/js/main.68ab491b.js",
+    "index.html": "/winkel-app/index.html",
+    "main.b565df0c.css.map": "/winkel-app/static/css/main.b565df0c.css.map",
+    "main.68ab491b.js.map": "/winkel-app/static/js/main.68ab491b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b565df0c.css",
+    "static/js/main.68ab491b.js"
+  ]
+}
