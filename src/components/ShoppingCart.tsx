@@ -21,7 +21,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
             <CartItem key={item.id} {...item} />
           ))}
           <div className="ms-auto mx-5 fw-bold fs-5">
-           <span className="p-2"> Totaal: {" "} </span>
+           <span className="p-2" style={{marginRight:"20px"}}> Totaal: {" "} </span>
             {formatCurrency(
               cartItems.reduce((total, cartItem) => {
                 const item = storeItems.find(i => i.id === cartItem.id)

@@ -14,7 +14,7 @@ export function StoreItem({id, price, imgUrl, name }: StoreItemProps) {
     increaseCartQuantity,
   } = useShoppingCart()
   return (
-    <Card className="card h-100 p-2 d-lg-flex align-items-centerjustify-content-center" style={{ maxWidth: "400px", border: "1px solid rgba(13,110,253,.15)" }}>
+    <Card className="card h-100 p-2 d-lg-flex align-items-centerjustify-content-center" style={{ maxWidth: "400px", marginLeft:"10px", border: "1px solid rgba(13,110,253,.15)" }}>
       <Card.Img
         variant="top"
         src={imgUrl}
