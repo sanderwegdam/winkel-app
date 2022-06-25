@@ -3,18 +3,18 @@
     "id": 1,
     "name": "Tijdschrift",
     "price": 6.99,
-    "imgUrl": "winkel-app/img/tijdschrift.jpg"
+    "imgUrl": "img/tijdschrift.jpg"
   },
   {
     "id": 2,
     "name": "Computer",
     "price": 799,
-    "imgUrl": "winkel-app/img/laptop.jpg"
+    "imgUrl": "img/laptop.jpg"
   },
   {
     "id": 3,
     "name": "Televisie",
     "price": 850,
-    "imgUrl": "winkel-app/img/tv.jpg"
+    "imgUrl": "img/tv.jpg"
   }
 ]
