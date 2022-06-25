@@ -30,7 +30,7 @@ export function CartItem({ id }: CartItemProps) {
         <div className=" fs-5 d-flex  align-items-center flex-row">       
       <img
         src={item.imgUrl}
-        style={{ width: "100px", height: "75px", objectFit: "cover" }} 
+        style={{ width: "100px", height: "75px", objectFit: "cover", marginLeft:"10px"}} 
       />      
         <span className="img-span d-flex"> {item.name}{" "} </span>
     </div>
