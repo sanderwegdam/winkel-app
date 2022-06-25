@@ -13,7 +13,6 @@ export function CartItem({ id }: CartItemProps) {
     getItemQuantity,
     increaseCartQuantity,
     decreaseCartQuantity,
-    removeFromCart,
   } = useShoppingCart()
   const quantity = getItemQuantity(id)
 
