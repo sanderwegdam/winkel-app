@@ -13,7 +13,6 @@ function App() {
         <Routes>   
           <Route path="/winkel" element={<Winkel />} />
            <Route path="/" element={<Home />} />
-          <Route path="/*" element={<Navigate to="/" />}  />
         </Routes>
       </Container>
     </ShoppingCartProvider>
