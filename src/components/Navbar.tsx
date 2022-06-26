@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 import { FaShoppingCart } from "react-icons/fa"
 import { CgShoppingBag } from "react-icons/cg"
+import { AiOutlineHome } from "react-icons/ai"
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
@@ -10,6 +11,9 @@ export function Navbar() {
     <NavbarBs sticky="top" className="bg-light mb-3"> 
       <Container>
         <Nav className="me-auto">
+          <Nav.Link to="/" as={NavLink}>
+            <AiOutlineHome style={{fontSize: "2em"}} />
+          </Nav.Link>
           <Nav.Link to="/winkel" as={NavLink}>
             <CgShoppingBag style={{fontSize: "2em"}} />
           </Nav.Link>

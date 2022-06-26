@@ -3,18 +3,18 @@
     "id": 1,
     "name": "Tijdschrift",
     "price": 6.99,
-    "imgUrl": "./img/tijdschrift.jpg"
+    "imgUrl": "./images/tijdschrift.jpg"
   },
   {
     "id": 2,
     "name": "Computer",
     "price": 799,
-    "imgUrl": "./img/laptop.jpg"
+    "imgUrl": "./images/laptop.jpg"
   },
   {
     "id": 3,
     "name": "Televisie",
     "price": 850,
-    "imgUrl": "./img/tv.jpg"
+    "imgUrl": "./images/tv.jpg"
   }
 ]
