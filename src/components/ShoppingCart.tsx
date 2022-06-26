@@ -13,21 +13,25 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   return (
     <Offcanvas  style={{minWidth:"375px"}} show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title><span className="p-3">Winkel items</span></Offcanvas.Title>
+        <Offcanvas.Title><span className="p-3">Winkel items</span>      
+        </Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
-        <Stack gap={4}>
+        <span className="d-flex justify-content-center align-items-center">{cartItems.length === 0 ? <p className="d-flex">Geen winkel items</p> : null}
+        </span>        
+        <Stack gap={4}>          
           {cartItems.map(item => (
             <CartItem key={item.id} {...item} />
           ))}
-          <div className="ms-auto mx-5 fw-bold fs-5">
-           <span className="p-2" style={{marginRight:"20px"}}> Totaal: {" "} </span>
+          <span className="ms-auto"></span>
+          <div className="fw-bold justify-content-center d-flex fs-5 p-1">            
+           <span className="p-2" style={{marginRight:"20px"}}> Totaal: {" "} 
             {formatCurrency(
               cartItems.reduce((total, cartItem) => {
                 const item = storeItems.find(i => i.id === cartItem.id)
                 return total + (item?.price || 0) * cartItem.quantity
               }, 0)
-            )}
+            )}</span>
           </div>
         </Stack>
       </Offcanvas.Body>
